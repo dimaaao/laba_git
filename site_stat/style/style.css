@@ -1,0 +1,107 @@
+@font-face{
+    font-family: "NK123";
+    src: url(NK123.ttf) format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+body {
+    font-family: 'NK123', sans-serif;
+    font-size: 30px;
+    color: #000;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: black;
+}
+
+.header-top{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+     
+}
+
+.nav-link {
+    color: #E6E6FA;
+    margin-left: 150px;
+}
+
+.logo{
+    width: 170px;
+    height: 70px;
+}
+
+main {
+    background-image: url(back.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-title {
+    color: black;
+    font-size: 40px;
+    margin-left: 80px;
+    padding-top: 100px;
+    
+}
+.submain-title {
+    color:  black;
+    font-size: 30px;
+    padding-top: 60px;
+    margin-left: 150px;
+    margin-right: 600px;
+}
+
+
+.asidetext{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #E6E6FA
+}
+
+.foto2 {
+    width: 474px;
+    height: 266px;
+    margin-left: 50px;
+}
+.foto1 {
+    margin-left: 70px;
+    padding-top: 250px;
+}
+.foto3 {
+    margin-left: 50px;
+}
+.tx1 {
+    margin-left: 170px; 
+}
+.tx2{
+    margin-left: 240px;
+}
+.tx3 {
+    margin-left: 350px;
+}
+.au {
+    margin-left: 200px;
+    width: 300px;
+    height: 350px;
+}
+.vd {
+    margin-left: 180px;
+    padding-top: 200px;
+}
+
